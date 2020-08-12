@@ -1,0 +1,37 @@
+hello v0.1 README
+-----------------
+
+The code in this project is licensed under GPLv3 license.
+
+Hello is a program that says hello, world.
+This program is useful to learn the basics about C
+
+
+BUILD
+-----
+
+To build the software it is necessary to install these tools:
+
+==> autoconf , automake , libtool
+
+Create the configuration files with the tool autoheader, autoconf.
+
+$ autoreconf -fi
+$ aclocal
+$ autoconf
+$ automake --add-missing
+$ autoreconf -fi
+$ rm -rf autom4te.cache config.h.in~
+
+
+CONFIGURATION
+-------------
+
+./configure
+ make
+ make install
+
+
+TEST
+----
+?
