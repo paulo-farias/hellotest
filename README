@@ -1,4 +1,4 @@
-hello v0.1 README
+hello v0.2 README
 -----------------
 
 The code in this project is licensed under GPLv3 license.
@@ -16,12 +16,11 @@ To build the software it is necessary to install these tools:
 
 Create the configuration files with the tool autoheader, autoconf.
 
-$ autoreconf -fi
-$ aclocal
-$ autoconf
-$ automake --add-missing
-$ autoreconf -fi
-$ rm -rf autom4te.cache config.h.in~
+# autoreconf -fi
+# aclocal
+# autoconf
+# automake --add-missing
+# rm -rf autom4te.cache
 
 
 CONFIGURATION
