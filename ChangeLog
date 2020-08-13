@@ -1,14 +1,7 @@
 hello Changelog
 ===============
 
-Version 1.1.2 - 12.08.2020
-------------------------
-* README
-    -Removed 'autoreconf -fi'(Duplicate) and config.h.in~.
-     
+Version 0.1.1 - 12.08.2020
+--------------------------
 
-Version 1.1.1 - 12.08.2020
-------------------------
 * Initial version.
-
-The code in this project is licensed under GPLv3 license.
