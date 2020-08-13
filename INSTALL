@@ -1,2 +1,67 @@
-The code in this project is licensed under GPLv3 license.
----------------------------------------------------------
+/******************************************************************************
+ *
+ * Copyright (c) 2020-2020 Paulo Farias <paulofariias@gmail.com>
+ * 
+ * This file is part of Hello. 
+ * 
+ * Hello is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or any later version.
+ *
+ * Hello is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * Hello. If not, see http://www.gnu.org/licenses/.
+ *
+ *******************************************************************************/
+
+
+Installation Instructions
+=========================
+
+
+Configuration
+-------------
+
+To build the software it is necessary configure with these tools:
+
+  # autoreconf -fi
+  # aclocal
+  # autoconf
+  # automake --add-missing
+  # rm -rf autom4te.cache
+  
+  
+Basic Installation
+------------------
+
+1. Compile hello with the following command:
+  
+  ./configure
+	
+  make
+
+2. Install the binary file.
+
+	make install
+
+
+The tool will be installed in /usr by default. To change this, edit
+the $PREFIX variable in Makefile.
+
+
+Uninstall
+=========
+
+To uninstall pcapfix just enter:
+
+	make uninstall
+
+
+Troubleshooting
+===============
+
+If there are any problems compiling the program, please write an email
+to paulofariias@gmail.com and include your compiling error message.
