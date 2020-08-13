@@ -1,36 +1,31 @@
-hello v0.2 README
------------------
-
-The code in this project is licensed under GPLv3 license.
+hello v1.1.2 README
+===================
 
 Hello is a program that says hello, world.
 This program is useful to learn the basics about C
+and released under the GNU General Public License.
+
+For further information visit the pcapfix homepage at
+https://github.com/paulo-farias/hellotest/.
 
 
-BUILD
------
+USAGE
+=====
 
-To build the software it is necessary to install these tools:
-
-==> autoconf , automake , libtool
-
-Create the configuration files with the tool autoheader, autoconf.
-
-# autoreconf -fi
-# aclocal
-# autoconf
-# automake --add-missing
-# rm -rf autom4te.cache
+./hello
 
 
-CONFIGURATION
--------------
+COPYRIGHT
+=========
 
-./configure
- make
- make install
+Copyright 2020-2020 Paulo Farias
 
+Hello is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or any later version.
+Hello is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+OR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-TEST
-----
-?
+You should have received a copy of the GNU General Public License along with
+Hello. If not, see http://www.gnu.org/licenses/.
