@@ -55,7 +55,7 @@ the $PREFIX variable in Makefile.
 Uninstall
 =========
 
-To uninstall pcapfix just enter:
+To uninstall just enter:
 
 	make uninstall
 
